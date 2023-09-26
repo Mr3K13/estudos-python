@@ -1,5 +1,5 @@
 
-print("\n\nOlá UNINASSAU!") 
+print("\n\nOlá UNINASSAU!\n") 
 print ("\n***** proxima questão*****")
 num1 = float(input("\nDigite um numero: "))
 print ("\nO numero foi: ",num1)
