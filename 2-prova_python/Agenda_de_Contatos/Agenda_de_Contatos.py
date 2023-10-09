@@ -7,7 +7,7 @@ global tree
 from dados import *
 
 ##cores
-c1 = "#f0f3f5" #Ciza
+c1 = "#f0f3f5" #Cinza
 c2 = "#feffff" #Branca
 c3 = "#403d3d" #letra
 c4 = "#450e63" #Roxo
