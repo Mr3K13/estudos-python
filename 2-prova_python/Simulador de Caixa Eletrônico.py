@@ -1,6 +1,6 @@
 import time
 print("\n *********** Bem Vindos ***********")
-print("\n Obrigado por escolher o banco Markin")
+print("\nObrigado por escolher o banco Markin")
 valor = 1000
 
 def menu(valor):
