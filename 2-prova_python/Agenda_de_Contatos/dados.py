@@ -1,12 +1,12 @@
 import csv
 def dados_add(i):  
- with open("C:/Users/ph154/OneDrive/Documentos/GitHub/estudos-python/2-prova_python/Agenda_de_Contatos/dados.csv","a+",newline="")as file:
+ with open("dados.csv","a+",newline="")as file:
    escrever=csv.writer(file)
    escrever.writerow(i)
 
 def ver_dados():
   dados=[]
-  with open("C:/Users/ph154/OneDrive/Documentos/GitHub/estudos-python/2-prova_python/Agenda_de_Contatos/dados.csv") as file:
+  with open("dados.csv") as file:
     ler_csv = csv.reader(file)
     for linha in ler_csv:
      dados.append(linha)
@@ -14,14 +14,14 @@ def ver_dados():
 def remover_dados(i):
 
   def adicionar_novalista(j):  
-     with open("C:/Users/ph154/OneDrive/Documentos/GitHub/estudos-python/2-prova_python/Agenda_de_Contatos/dados.csv","w",newline="")as file:
+     with open("dados.csv","w",newline="")as file:
          escrever=csv.writer(file)
          escrever.writerows(j)
          ver_dados()
 
   nova_lista=[]
   telefone= i
-  with open("C:/Users/ph154/OneDrive/Documentos/GitHub/estudos-python/2-prova_python/Agenda_de_Contatos/dados.csv","r")as file:
+  with open("dados.csv","r")as file:
       ler_csv=csv.reader(file)
 
       for linha in ler_csv:
@@ -37,7 +37,7 @@ def pesquisar_dados(i):
   telefone = i
  
  
-  with open("C:/Users/ph154/OneDrive/Documentos/GitHub/estudos-python/2-prova_python/Agenda_de_Contatos/dados.csv") as file:
+  with open("dados.csv") as file:
        ler_csv= csv.reader(file)
        for linha in ler_csv:
            for campo in linha:
