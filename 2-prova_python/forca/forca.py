@@ -2,7 +2,7 @@ import random
 letras_tentativas = []
 chances = 5
 ganhou = False
-with open("C:/Users/ph154/OneDrive/Documentos/GitHub/estudos-python/2-prova_python/forca/palavras.txt", "r") as arquivo:
+with open("palavras.txt", "r") as arquivo:
     palavras = arquivo.read().splitlines()
 palavra = random.choice(palavras)
 
