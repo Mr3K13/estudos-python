@@ -36,5 +36,7 @@ while True:
 
 if ganhou:
     print(f"\n\nParabéns! Você ganhou.\n\nA palavra era {palavra}\n")
+    print("\n\nObrigado por usar mais um código Markin\n\n*********** Até uma próxima ***********\n")
 else:
     print(f"\nVocê perdeu.\n\nA palavra era {palavra}\n")
+    print("\n\nObrigado por usar mais um código Markin\n\n*********** Até uma próxima ***********\n")
