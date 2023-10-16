@@ -7,7 +7,7 @@ def menu(valor):
    menu_v = int(input("\nO que o Sr.(a) deseja ? \n1 - Sacar\n2 - Depositar\n3 - Extrato\n0 - Sair\n\nOpção: "))
    print("______________________________")
    if menu_v == 1:
-     print("\nO Sr(a) escolheu a opiçao de Saque")
+     print("\nO Sr(a) escolheu a opção de Saque")
      time.sleep(0.7)
      saque = float(input("\nQual valor o Sr.(a) deseja sacar? "))
      valor -= saque
@@ -17,7 +17,7 @@ def menu(valor):
      menu(valor)
 
    elif menu_v == 2:
-      print("\nO Sr(a) escolheu a opiçao de Deposito")
+      print("\nO Sr(a) escolheu a opção de Deposito")
       time.sleep(0.7)
       deposito = float(input("\nQual valor o Sr.(a) depositar? "))
       valor += deposito
@@ -27,12 +27,12 @@ def menu(valor):
       menu(valor)
 
    elif menu_v == 3:
-      print(f"\nO Sr(a) escolheu a opição Extrato\n\nO valor atual na sua conta é de: R${valor}")
+      print(f"\nO Sr(a) escolheu a opção Extrato\n\nO valor atual na sua conta é de: R${valor}")
       time.sleep(1)
       menu(valor)
       
    elif menu_v == 0:
-      print(f"\n brigado por escolher o banco Markin\n\nO seu saldo final foi: R${valor}\n\n*********** Até uma proxima ***********\n")
+      print(f"\nObrigado por escolher o banco Markin\n\nO seu saldo final foi: R${valor}\n\n*********** Até uma proxima ***********\n")
    
    else:
       print("\nO Sr(a) inseriu um valor incorreto. Por favor, insira um valor válido.")
