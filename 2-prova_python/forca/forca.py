@@ -1,4 +1,6 @@
 import random
+print("\n *********** Bem Vindos ***********")
+print("\nObrigado por escolher a forca Markin")
 letras_tentativas = []
 chances = 5
 ganhou = False
